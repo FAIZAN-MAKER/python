@@ -16,7 +16,5 @@
 
 arr = [10, 20, 30]
 
-for i in range(0, 3):
-    print(f"Index {i} -> {arr[i]}")
-    
-    # i am tired of typing so i ain't explaining anything 😑😑
+for index, value in enumerate(arr):
+    print(f"Index {index} -> {value}")
