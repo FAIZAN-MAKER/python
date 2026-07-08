@@ -1,9 +1,11 @@
 arr = [8, 3, 15, 2, 10]
 largest_num = arr[0]
 
+
 for i in arr[1:]:
     if i > largest_num:
         largest_num = i
+    
         
 print(largest_num)
 
